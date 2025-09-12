@@ -6,18 +6,29 @@
             android:title="import">
 
         </item>
-        <item android:title="tools"
-            android:id="@+id/ferramentas">
-            <menu>
-                <item android:id="@+id/nav"
-                    android:title="share"
 
-                    />
-
-            </menu>
-
-        </item>
+        <item android:id="@+id/nav_ferramentas"
+            android:title="tools"
+            />
     </group>
+
+
+    <item android:title="comunicados">
+
+        <menu>
+            <item android:id="@+id/opcao_saida"
+                android:title="saída" />
+
+            <item android:id="@+id/opcao_salvar"
+                android:title="Salvar" />
+
+            <item android:id="@+id/opcao_compartilhar"
+                android:title="Compartilhar"/>
+
+        </menu>
+
+    </item>
+
 
 
 </menu>

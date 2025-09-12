@@ -9,9 +9,9 @@
         android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="188dp"
+        android:layout_marginStart="164dp"
+        android:text="Olá mundo"
         android:textSize="20dp"
-        android:text="ola mundo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,6 +24,7 @@
         android:layout_marginBottom="16dp"
         android:contentDescription="email"
         android:src="@drawable/ic_launcher_foreground"
+        app:maxImageSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
