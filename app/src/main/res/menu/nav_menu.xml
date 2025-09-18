@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_import"
-            android:title="import">
 
-        </item>
+    <item
+        android:id="@+id/menu_favoritos"
+        android:title="Favoritos"
+        />
 
-        <item android:id="@+id/nav_ferramentas"
-            android:title="tools"
-            />
-    </group>
+    <item
+        android:id="@+id/menu_acessados"
+        android:title="Mais acessados"
+        />
 
-
-    <item android:title="comunicados">
-
-        <menu>
-            <item android:id="@+id/opcao_saida"
-                android:title="saída" />
-
-            <item android:id="@+id/opcao_salvar"
-                android:title="Salvar" />
-
-            <item android:id="@+id/opcao_compartilhar"
-                android:title="Compartilhar"/>
-
-        </menu>
-
-    </item>
-
-
-
+    <item
+        android:id="@+id/Menu_compartilhados"
+        android:title="Compartilhados"
+        />
 </menu>
