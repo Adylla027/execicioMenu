@@ -44,7 +44,7 @@
             android:layout_marginTop="?attr/actionBarSize"
             android:layout_gravity="start"
             app:headerLayout="@layout/nav_header"
-            app:menu="@menu/nav_menu"
+            app:menu="@menu/left_menu"
             android:fitsSystemWindows="true"
 
             />
