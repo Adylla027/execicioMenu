@@ -1,22 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_drawer"
 
     >
 
 
-    <item
-        android:id="@+id/menu_favoritos"
-        android:title="Favoritos"
-        />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_roupas"
+            android:title="Roupas"
+            android:icon="@drawable/icon_woman"
+            />
 
-    <item
-        android:id="@+id/menu_acessados"
-        android:title="Mais acessados"
-        />
+        <item
+            android:id="@+id/menu_sapatos"
+            android:title="Sapatos"
+            android:icon="@drawable/icon_shoes"
 
-    <item
-        android:id="@+id/Menu_compartilhados"
-        android:title="Compartilhados"
-        />
+            />
+
+        <item
+            android:id="@+id/menu_jogos"
+            android:title="Jogos"
+            android:icon="@drawable/icon_game"
+            />
+
+        <item
+            android:id="@+id/menu_moveis"
+            android:title="Móveis"
+            android:icon="@drawable/icon_furniture"
+            />
+
+        <item
+            android:id="@+id/menu_oculos"
+            android:title="Óculos"
+            android:icon="@drawable/icon_glasses"
+            />
+
+
+    </group>
+
+
+
+
 </menu>
